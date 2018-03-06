@@ -58,6 +58,7 @@ public HomePage Confirm_password(String confirm_Pass) throws Exception{
 public HomePage confirm_login() throws Exception{
 	myLib.clickWebElement(objmap.getLocator("login_Btn2"));
 	myLib.customWait(5);
+	System.out.println();
 	return this;
 }
 }
